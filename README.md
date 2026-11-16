@@ -51,11 +51,7 @@ flowchart LR
 
 ### SAP Cloud Integration (CPI) BPMN2 Implementation
 
-![SAP CPI BPMN2 Integration Flow](docs/images/iflow-bpmn2-diagram.png)
-
-### SAP CPI Runtime Deployment Verification
-
-![SAP CPI Runtime Monitor Status](docs/images/runtime-monitor-status.png)
+![SAP CPI BPMN2 Integration Flow](iflow-bpmn2-diagram.png)
 
 ---
 
@@ -227,11 +223,8 @@ sap-cpi-mdi-digital-product-passport-circular-bom/
 ├── artifacts/
 │   └── IFlow_MDI_DigitalProductPassport_CircularBOM_Engine.zip   # Exported SAP CPI BPMN2 package
 ├── docs/
-│   ├── adr/
-│   │   └── 001-espr-digital-product-passport-and-circular-bom-gating.md
-│   └── images/
-│       ├── iflow-bpmn2-diagram.png                               # SAP CPI BPMN2 flow diagram
-│       └── runtime-monitor-status.png                            # SAP CPI runtime deployment proof
+│   └── adr/
+│       └── 001-espr-digital-product-passport-and-circular-bom-gating.md
 ├── src/
 │   ├── main/
 │   │   └── groovy/
@@ -243,6 +236,7 @@ sap-cpi-mdi-digital-product-passport-circular-bom/
 │           │   └── Message.groovy                                # SAP CPI Message stub (Reader-enabled)
 │           └── DppCircularBomValidatorSpec.groovy                # Spock Framework TDD unit tests
 ├── build.gradle                                                  # Groovy 3 & Spock 2.3 build descriptor
+├── iflow-bpmn2-diagram.png                                       # SAP CPI BPMN2 flow screenshot
 └── README.md
 ```
 
